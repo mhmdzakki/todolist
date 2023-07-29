@@ -2,7 +2,7 @@ import React from "react";
 import { X } from "react-feather";
 import { motion } from "framer-motion";
 
-const Modal = (props) => {
+export default function Modal(props) {
   const { isOpen, onClose, title, children } = props;
 
   const modalAnimation = {
@@ -25,6 +25,4 @@ const Modal = (props) => {
       )}
     </>
   );
-};
-
-export default Modal;
+}

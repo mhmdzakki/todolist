@@ -1,5 +1,5 @@
 import * as React from "react";
-import Modal from "./components/modal";
+import Modal from "./components/Modal";
 import Card from "./components/Card";
 import { Toaster, toast } from "react-hot-toast";
 import { Plus } from "react-feather";
